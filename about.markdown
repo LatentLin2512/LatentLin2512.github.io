@@ -1,12 +1,13 @@
 ---
 layout: page
-title: About the Theme
+title: About Me
 tags: [about, Jekyll, theme, moon]
-date: 2024-02-11
-comments: false
----
+date: 2024-09-26
+comments: true
+----
 
-<center><a href="http://TolgaTatli.github.io/Moonrise"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+
+<center> This is LatentLin's blog</center>
 
 ## Features
 
