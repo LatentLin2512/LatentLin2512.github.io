@@ -4,7 +4,7 @@ title: About Me
 tags: [about, Jekyll, theme, moon]
 date: 2024-09-26
 comments: true
-----
+---
 
 
 <center> This is LatentLin's blog</center>
