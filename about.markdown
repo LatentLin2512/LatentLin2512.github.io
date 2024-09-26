@@ -17,7 +17,7 @@ comments: true
 -   University: ZJUI
 -   Major: Computer Engineer
 -   Hobby: Drawing, Do crafts, Play badminton, Climb mountain
--   Previous Blog: https://www.cnblogs.com/latent-Lin (The posts in this blog are mostly about basc C++ programming)
+-   Previous Blog: https://www.cnblogs.com/latent-Lin (The posts in this blog are mostly about C++ programming)
 
 
 ## Preview
