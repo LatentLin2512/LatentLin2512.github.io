@@ -11,9 +11,10 @@ comments: true
 
 ## TMI
 
+-   Birthday: 1.2
 -   Home: Dong Guan, Guang Dong
 -   University: ZJUI
--   Birthday: 2005.1.2
+-   Major: Computer Engineer
 
 
 ## Preview
