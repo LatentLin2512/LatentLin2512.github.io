@@ -9,18 +9,12 @@ comments: true
 
 <center> This is LatentLin's blog</center>
 
-## Features
+## TMI
 
--   Minimal, you can focus on your content
--   Responsive
--   Disqus integration
--   Syntax highlighting
--   Optional post image
--   Social icons
--   Page for sharing projects
--   Optional background image
--   Simple navigation menu
--   MathJax support
+-   Home: Dong Guan, Guang Dong
+-   University: ZJUI
+-   Birthday: 2005.1.2
+
 
 ## Preview
 
