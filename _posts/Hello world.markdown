@@ -7,7 +7,7 @@ feaure: assets/img/background.jpg
 
 
 
-<center> This is LatentLin's blog! <\center>
+<center> This is LatentLin's blog! </center>
     
 ```cpp
 #include<iostream>
