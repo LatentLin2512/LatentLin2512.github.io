@@ -9,7 +9,7 @@ feature: https://github.com/LatentLin2512/LatentLin2512.github.io/blob/master/as
 
 
 <center> This is LatentLin's blog! </center>
-
+<br>
 ```cpp
 #include<iostream>
 using namespace std;
