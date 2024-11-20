@@ -11,17 +11,17 @@ comments: true
 
 ## TMI
 
-🎂: 2005.1.2
+🎂 2005.1.2
 
 🪿comments:
 
 ![9cc4bee18ee9c274e3bb1a0da4ffac9](https://github.com/user-attachments/assets/a37028bf-9d7f-4822-ba20-1b7cd27e478c)
 
-🏠: Dongguan, Guangdong, China
+🏠 Dongguan, Guangdong, China
 
-🏫: ZJUI
+🏫 ZJUI
 
-🖥️: Computer Engineer
+🖥️ Computer Engineer
 
 I like 🖌️,⚫⚪,🏸,⛰️,✂️,🥏(actually I mean discus) ……
 
@@ -29,19 +29,29 @@ Previous Blog: https://www.cnblogs.com/latent-Lin (The posts in this blog are mo
 
 ## 🌟 in university:
 
-🎱(shot)🪄(javelin) 2023/10 won some prizes and happiness
+2023/10
 
-🐟 2024/5 MCM_A Meritorious Winner 
+🎱(shot)🪄(javelin) won some prizes and happiness
 
-👩‍💼 2024/9 become the main manager in ZJUI's publicity department (I really like this job. It can stimulate my creativity, and I also have many brilliant workmates there.)
+2024/05
 
-⛰️ 2024/9 Climb Lushan Mountain from 2AM to 2PM
+🐟 MCM_A Meritorious Winner 
 
-🎱(shot)🥏(discus)🪄(javelin)🏸 2024/10 won some prizes and too much happiness
+2024/09
 
-🥇 2024/11 National scholarship
+👩‍💼 become the main manager in ZJUI's publicity department (I really like this job. It can stimulate my creativity, and I also have many brilliant workmates there.)
 
-🪂 2024/11 Paragliding in Dajianshan, Haining, Jiaxing, Zhejiang
+⛰️ Climb Lushan Mountain from 2AM to 2PM
+
+2024/10
+
+🎱(shot)🥏(discus)🪄(javelin)🏸  won some prizes and too much happiness
+
+2024/11
+
+🥇 National scholarship
+
+🪂 Paragliding in Dajianshan, Haining, Jiaxing, Zhejiang
 
 ## Academic experience
 
