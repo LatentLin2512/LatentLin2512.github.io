@@ -53,6 +53,15 @@ Previous Blog: https://www.cnblogs.com/latent-Lin (The posts in this blog are mo
 
 🪂 Paragliding in Dajianshan, Haining, Jiaxing, Zhejiang
 
+2025/02
+
+🧑‍🔬 Do a social practice project called "Exploring the popularization of science in digital era" in winter holiday, and I am the leader and the planner of this project. We deeply analyzed various topics in the field of science popularization, tried to do science popularization ourselves, and published several high-quality posts to share our thoughts. We won the top 3 in the final evaluation in our international campus.
+
+2025/03
+
+
+
+
 ## Academic experience
 
 🧬+AI: ongoing. Now it is hard for me to explain what I have done and need to finish.
