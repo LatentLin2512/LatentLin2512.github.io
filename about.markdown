@@ -19,9 +19,7 @@ comments: true
 
 🏠 Dongguan, Guangdong, China
 
-🏫 ZJUI
-
-🖥️ Computer Engineer
+🏫Bachelor: ZJU-UIUC - Computer Engineer
 
 I like 🖌️,⚫⚪,🏸,⛰️,✂️,🥏(actually I mean discus) ……
 
@@ -55,9 +53,11 @@ Previous Blog: https://www.cnblogs.com/latent-Lin (The posts in this blog are mo
 
 2025/02
 
-🧑‍🔬 Do a social practice project called "Exploring the popularization of science in digital era" in winter holiday, and I am the leader and the planner of this project. We deeply analyzed various topics in the field of science popularization, tried to do science popularization ourselves, and published several high-quality posts to share our thoughts. We won the top 3 in the final evaluation in our international campus.
+🧑‍🔬 Do a social practice project called "Exploring the popularization of science in digital era" in winter holiday, and I am the leader and the planner of this project. We deeply analyzed various topics in the field of science popularization, tried to do science popularization ourselves, and published several high-quality posts to share our thoughts. We won the top 3 (second prize) in the final evaluation in our international campus.
 
-2025/03
+2025/05
+🐲🛥️ Won the second prize and the best essay prize in the sixth college student concrete Loong Boat race of Zhejiang University
+![微信图片_20250715141542](https://github.com/user-attachments/assets/e05079db-54b9-4b3c-9f1a-de330f31eea0)
 
 
 
