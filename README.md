@@ -1,20 +1,6 @@
-# Moonrise Jekyll Theme
+# my website
+# This is the theme I use: Moonrise Jekyll Theme
 
-###### (If you like this theme or using it, please give a :star: for motivation.)
-
-🌓 Moonrise is a fresh take on the classic **[Moon](https://github.com/TaylanTatli/Moon)** theme, with a modern design, improved responsiveness, and more customization options.
-
-## Features
-
--   Minimal, you can focus on your content
--   Responsive
--   Syntax highlighting
--   Optional post image
--   Social icons
--   Page for sharing projects
--   Optional background image
--   Simple navigation menu
--   MathJax support
 
 ## Preview
 
