@@ -61,7 +61,7 @@ Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-U
 *Course Project, ECE408, University of Illinois Urbana-Champaign*  
 - Responsible for implementing Tensor Cores, FlashAttention, reduction techniques, and other optimization strategies to accelerate the model using CUDA programming.
 
-**Custom Linux Filesystem**
+**Custom Linux Filesystem**  
 *Course Project, ECE391, University of Illinois Urbana-Champaign*  
 - Responsible for the ELF loader, system calls, process management, and the shell interface; additionally, extended the shell by implementing tab completion using a trie and enabling scrolling through command history with the up and down keys beyond the course requirements.
 
