@@ -55,16 +55,15 @@ Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-U
 
 ---
 
----
-
 ## Project Experience
 
-**Research Progress and Experimental Exploration of Vision–Language–Action (VLA) Models**  
-*Summer Research Project in 2025*
+**GPT2 project**
 
-- Conducted an in-depth study of multiple papers in the Vision–Language Model (VLM) field and attempted to reproduce several open-source projects.
-- Led a team of three, gave weekly updates to our advisor, and made short videos explaining the papers, which were uploaded to Bilibili.  
-- Awarded **Outstanding Project** by the college
+**The Little Boat on Yuehaitang**  
+*Sixth College Student Concrete Dragon Boat Race, Zhejiang University (2025)*
+- Designed and implemented the electrical control system and wrote the associated technical reports  
+- Collaborated with four other students to build and complete the boat project  
+- Awarded **Second Prize** and **Best Essay Prize** by the college
 
 ---
 
