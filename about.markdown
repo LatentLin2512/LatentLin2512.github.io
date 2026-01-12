@@ -22,8 +22,6 @@ comments: true
 ---
 
 ## Profile
-![b58d1594ce738e6680fb0c56f187b1f](https://github.com/user-attachments/assets/22f7aad3-d66e-4e31-951a-202eed403580)
-
 I am an undergraduate student majoring in **Computer Engineering** at  
 **Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-UIUC)**.
 
