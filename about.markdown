@@ -84,10 +84,6 @@ Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-U
 
 ## Leadership & Activities
 
-Club Member / Officer, [Club Name], ZJU-UIUC Institute (2024–Present)
-- Participated in regular meetings and events, contributing to [specific projects or activities]
-- Organized [events/activities], collaborated with other members to achieve [outcomes]
-
 - **Club Member**, Illinois Space Society (2025.9 – Present)  
   - Learned an extended Kalman filter algorithm and attempted to apply it to estimate a rocket's height, velocity, and acceleration during actual launches.  
   - Assisted the team in identifying several bugs in the code, such as inconsistencies in the reference frame.  
