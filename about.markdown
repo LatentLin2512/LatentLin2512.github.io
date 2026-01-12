@@ -59,7 +59,7 @@ Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-U
 **Research and Reproduction of VLA Models**  
 *Team leader, Summer Research Project in 2025*
 
-- Studied multiple VLA papers and partially reproduced open-source projects.
+- Studied multiple recent VLA papers and partially reproduced open-source projects.
 - Led a team of three, delivering weekly study reports to the advisor (recorded and shared on Bilibili).
 - Awarded **Outstanding Project** by ZJU-UIUC
   
