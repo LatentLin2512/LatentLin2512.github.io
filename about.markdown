@@ -17,7 +17,7 @@ I am an undergraduate student majoring in **Computer Engineering** at
 
 I am currently exploring my academic interests. At this stage, I am particularly curious about **embodied intelligence**, with a focus on **Vision–Language Models (VLMs)** and **Vision–Language–Action (VLA) models**.
 
-In addition to my technical interests, I am also passionate about **science communication and content creation**, especially in making complex scientific ideas accessible to a broader audience. I was also an **Olympiad in Informatics (OI) participant** during high school — though I always lost in the competitions.😅
+In addition to my technical interests, I am also passionate about **science communication and content creation**, especially in making complex scientific ideas accessible to a broader audience. I was also an **Olympiad in Informatics (OI) participant** for many years during high school — though I always lost in the competitions.😅
 
 
 - **Name**: 林文隽 (Wenjuan Lin) 
