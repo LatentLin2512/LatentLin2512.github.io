@@ -6,7 +6,7 @@ date: 2024-09-26
 comments: true
 ---
 
-<center><i>LatentLin · Undergraduate Student in Computer Engineering</i></center>
+<center><i>Wenjuan Lin · Undergraduate Student in Computer Engineering</i></center>
 
 ---
 
@@ -17,7 +17,7 @@ I am an undergraduate student majoring in **Computer Engineering** at
 
 My academic interests lie at the intersection of **computer systems, data-driven modeling, and interdisciplinary applications**, particularly in combining computational methods with real-world scientific problems. I am also deeply interested in creative expression and student engagement through interdisciplinary and cultural activities.
 
-- **Name**: Lin  
+- **Name**: 林文隽(Wenjuan Lin) 
 - **Date of Birth**: January 2, 2005  
 - **Hometown**: Dongguan, Guangdong, China  
 
