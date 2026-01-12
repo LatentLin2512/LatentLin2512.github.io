@@ -32,15 +32,9 @@ In addition to my technical interests, I am also passionate about **science comm
 
 - **Name**: 林文隽 (Wenjuan Lin) 
 - **Date of Birth**: January 2, 2005  
-- **Hometown**: Dongguan, Guangdong, China  
-
----
-
-## Education
-
-**Bachelor of Science in Computer Engineering**  
-Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-UIUC)  
-*Expected Graduation: 2027*
+- **School**: Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-UIUC)
+- **Major**: Computer Engineering
+- **Hometown**: Dongguan, Guangdong, China
 
 ---
 
