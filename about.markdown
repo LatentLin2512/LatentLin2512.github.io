@@ -47,12 +47,12 @@ Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-U
 ## Research Experience
 
 **Research Progress and Experimental Exploration of Vision–Language–Action (VLA) Models**  
-*Summer Research Project in 2025*
+*Team leader, Summer Research Project in 2025*
 
 - Conducted an in-depth study of multiple papers in the Vision–Language Model (VLM) field and attempted to reproduce several open-source projects.
-- Led a team of three, gave weekly updates to our advisor, and made short videos explaining the papers, which were uploaded to Bilibili.  
+- Led a team of three, providing weekly reports to our advisor on the papers we studied; these reports were recorded by the advisor and uploaded as videos to Bilibili.
 - Awarded **Outstanding Project** by the college
-
+  
 ---
 
 ## Project Experience
