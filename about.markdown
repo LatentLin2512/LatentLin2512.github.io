@@ -5,6 +5,16 @@ tags: [about]
 date: 2024-09-26
 comments: true
 ---
+<style>
+  p {
+    line-height: 1.8; 
+  }
+
+  li {
+    line-height: 1.8; 
+  }
+</style>
+
 
 <center><i>Wenjuan Lin · Undergraduate Student in Computer Engineering</i></center>
 
