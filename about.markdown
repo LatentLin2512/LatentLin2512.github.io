@@ -51,13 +51,20 @@ Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-U
 
 - Conducted an in-depth study of multiple papers in the Vision–Language Model (VLM) field and attempted to reproduce several open-source projects.
 - Led a team of three, providing weekly reports to our advisor on the papers we studied; these reports were recorded by the advisor and uploaded as videos to Bilibili.
-- Awarded **Outstanding Project** by the college
+- Awarded **Outstanding Project** by ZJU-UIUC
   
 ---
 
 ## Project Experience
 
-**GPT2 project**
+**GPT-2 Project**  
+*Course Project, ECE408, University of Illinois Urbana-Champaign*  
+- Responsible for implementing Tensor Cores, FlashAttention, reduction techniques, and other optimization strategies to accelerate the model using CUDA programming.
+
+**Custom Linux Filesystem**
+*Course Project, ECE391, University of Illinois Urbana-Champaign*  
+- Responsible for the ELF loader, system calls, process management, and the shell interface; additionally, extended the shell by implementing tab completion using a trie and enabling scrolling through command history with the up and down keys beyond the course requirements.
+
 
 **The Little Boat on Yuehaitang**  
 *Sixth College Student Concrete Dragon Boat Race, Zhejiang University (2025)*
