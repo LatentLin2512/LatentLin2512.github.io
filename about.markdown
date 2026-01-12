@@ -6,90 +6,98 @@ date: 2024-09-26
 comments: true
 ---
 
+<center><i>LatentLin · Undergraduate Student in Computer Engineering</i></center>
 
-<center> This is LatentLin's blog</center>
+---
 
-## TMI
+## Profile
 
-🎂 2005.1.2
+I am an undergraduate student majoring in **Computer Engineering** at  
+**Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-UIUC)**.
 
-🪿comments:
+My academic interests lie at the intersection of **computer systems, data-driven modeling, and interdisciplinary applications**, particularly in combining computational methods with real-world scientific problems. I am also deeply interested in creative expression and student engagement through interdisciplinary and cultural activities.
 
-![9cc4bee18ee9c274e3bb1a0da4ffac9](https://github.com/user-attachments/assets/a37028bf-9d7f-4822-ba20-1b7cd27e478c)
+- **Name**: Lin  
+- **Date of Birth**: January 2, 2005  
+- **Hometown**: Dongguan, Guangdong, China  
 
-🏠 Dongguan, Guangdong, China
+---
 
-🏫 Bachelor: ZJU-UIUC - Computer Engineer
+## Education
 
-I like 🖌️,⚫⚪,🏸,⛰️,✂️,🥏(actually I mean discus) ……
+**Bachelor of Science in Computer Engineering**  
+Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-UIUC)  
+*Expected Graduation: 2027*
 
-Previous Blog: https://www.cnblogs.com/latent-Lin (The posts in this blog are mostly about C++ programming. I wrote these when I was in middle school.)
+---
 
-## 🌟 in university:
+## Academic Honors & Awards
 
-2023/10
+- **National Scholarship**, Ministry of Education of the People’s Republic of China (2024)
+- **Dean’s List**, University of Illinois at Urbana-Champaign (2024)
+- **Second Prize Scholarship for Academic Excellence**, ZJU-UIUC Institute (2024)
+- **Meritorious Winner**, Mathematical Contest in Modeling (MCM), COMAP (2024)
 
-🪄(javelin) 6th place in women’s javelin at the Zhejiang University Games; 2th place at the campus sports meet.
+---
 
-2024/05
+## Research Experience
 
-🐟 MCM_A Meritorious Winner (Meritorious Winner in Mathematical Contest in Modeling, Consortium for Mathematics and its Applications, 2024)
+**Single-Cell Multi-Omics Data Integration and Alignment**  
+*Summer Research Project*
 
-2024/09
+- Conducted research on integrating and aligning single-cell multi-omics data using AI-driven methods  
+- Explored representation learning and cross-modality alignment techniques  
+- Awarded **Outstanding Project** and **Outstanding Poster** by the college
 
-👩‍💼 become the main manager in ZJUI's publicity department (I really like this job. It can stimulate my creativity, and I also have many brilliant workmates there.)
+---
 
-⛰️ Climb Lushan Mountain from 2AM to 2PM
-![2a4aa8d8ccd15ce744695e3d29a68ad](https://github.com/user-attachments/assets/69ea78b6-71c9-416d-895f-4e4209944d4e)
+## Teaching & Academic Service
 
-2024/10
+- **Writing Assistant**, Rhetoric 102  
+  Assisted students with academic writing, argument structure, and revision strategies
 
-Sports Month! I have gained a lot of happiness and precious friendships
+---
 
-🎱(shot)    2th place in women’s shot put at the campus sports meet.
+## Leadership & Activities
 
-🥏(discus)  5th place in women’s javelin at the Zhejiang University Games.
+- **Main Manager**, Publicity Department, ZJU-UIUC Institute (2024–Present)  
+  Led creative planning and visual communication for institutional events and student initiatives
 
-🏸 6th place in women’s badminton singles at the campus sports meet.
+- **Leader & Planner**, Social Practice Project  
+  *“Exploring the Popularization of Science in the Digital Era”* (Winter 2025)  
+  - Designed and led a research-driven science communication project  
+  - Published multiple high-quality science popularization articles  
+  - Awarded **Second Prize (Top 3)** in final evaluation on the international campus
 
-2024/11
+- **Founder & Leader**, Student Culture Festival Booth (2025)  
+  Organized a cultural booth on the Guangdong–Hong Kong–Macao Greater Bay Area, featuring traditional cuisine, music, and language interaction
 
-🥇 National Scholarship, Ministry of Education of People’s Republic of China, 2024
+---
 
-🪂 Paragliding in Dajianshan, Haining, Jiaxing, Zhejiang
+## Sports & Extracurricular Achievements
 
-2024/12
+- Women’s **Javelin Throw**:  
+  - 6th place, Zhejiang University Games  
+  - 2nd place, Campus Sports Meet
 
-👨‍💼 Dean’s List, University of Illinois at Urbana-Champaign, 2024
+- Women’s **Shot Put**:  
+  - 2nd place, Campus Sports Meet
 
-💸 Second Prize Scholarship for Academic Excellence, Zhejiang University-University of Illinois Urbana-Champaign Institute, 2024
+- Women’s **Badminton Singles**:  
+  - 6th place, Campus Sports Meet
 
-2025/02
+- **Second Prize & Best Essay Prize**,  
+  Sixth College Student Concrete Dragon Boat Race, Zhejiang University
 
-🧑‍🔬 Do a social practice project called "Exploring the popularization of science in digital era" in winter holiday, and I am the leader and the planner of this project. We deeply analyzed various topics in the field of science popularization, tried to do science popularization ourselves, and published several high-quality posts to share our thoughts. We won the top 3 (second prize) in the final evaluation in our international campus.
-![微信图片_20250207184412](https://github.com/user-attachments/assets/3604c6b7-6a82-4c9e-ba83-828180207a90)
+---
 
-👩‍🏫 Writing Assistant in Rhet 102
+## Interests
 
-2025/03
+Painting and visual design, black-and-white aesthetics, badminton, hiking, endurance sports, and interdisciplinary creative projects.
 
-🧁 As the leader, I, with my friends, established a booth about the culture in the Guangdong-Hong Kong-Marco Greater Bay Area during the Student Culture Festival. At the booth, we made Cheung Fun and Milk Custard on site, played Cantonese songs and taught audience Cantonese slang. The event was a great success!
-![61f5e20a71b23d43677f0c1fde6f3f0](https://github.com/user-attachments/assets/98b2d8fa-f3f4-4da7-ae8e-011c8d4d38a6)
+---
 
-2025/04
+## Previous Blog
 
-🚴 Riding for 80km in Chongming, Shanghai
-
-2025/05
-
-🐲🛥️ Won the second prize and the best essay prize in the sixth college student concrete Loong Boat race of Zhejiang University
-![微信图片_20250715141542](https://github.com/user-attachments/assets/e05079db-54b9-4b3c-9f1a-de330f31eea0)
-
-2026/06
-
-🧑‍🤝‍🧑 I participated in a program jointly organized by Zhejiang University, the University of Hong Kong, and the University of Macau. I made many good friends and also went to other universities to learn about the college and local culture.
-
-## Academic experience
-
-🧬+AI: The summer research project on integrating and aligning single-cell multi-omics data received both the “Outstanding Project” and “Outstanding Poster” awards from the college.
-
+My earlier technical blog (mainly C++ programming, written during middle school):  
+👉 https://www.cnblogs.com/latent-Lin
