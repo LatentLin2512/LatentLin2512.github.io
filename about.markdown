@@ -15,9 +15,12 @@ comments: true
 I am an undergraduate student majoring in **Computer Engineering** at  
 **Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-UIUC)**.
 
-My academic interests lie at the intersection of **computer systems, data-driven modeling, and interdisciplinary applications**, particularly in combining computational methods with real-world scientific problems. I am also deeply interested in creative expression and student engagement through interdisciplinary and cultural activities.
+I am currently exploring my academic interests. At this stage, I am particularly curious about **embodied intelligence**, with a focus on **Vision–Language Models (VLMs)** and **Vision–Language–Action (VLA) models**.
 
-- **Name**: 林文隽(Wenjuan Lin) 
+In addition to my technical interests, I am also passionate about **science communication and content creation**, especially in making complex scientific ideas accessible to a broader audience. I was also an **Olympiad in Informatics (OI) participant** during high school — though I always lost in the competitions.😅
+
+
+- **Name**: 林文隽 (Wenjuan Lin) 
 - **Date of Birth**: January 2, 2005  
 - **Hometown**: Dongguan, Guangdong, China  
 
@@ -42,12 +45,12 @@ Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-U
 
 ## Research Experience
 
-**Single-Cell Multi-Omics Data Integration and Alignment**  
-*Summer Research Project*
+**Research Progress and Experimental Exploration of Vision–Language–Action (VLA) Models**  
+*Summer Research Project in 2025*
 
-- Conducted research on integrating and aligning single-cell multi-omics data using AI-driven methods  
-- Explored representation learning and cross-modality alignment techniques  
-- Awarded **Outstanding Project** and **Outstanding Poster** by the college
+- Conducted an in-depth study of multiple papers in the Vision–Language Model (VLM) field and attempted to reproduce several open-source projects.
+- Led a team of three, gave weekly updates to our advisor, and made short videos explaining the papers, which were uploaded to Bilibili.  
+- Awarded **Outstanding Project** by the college
 
 ---
 
