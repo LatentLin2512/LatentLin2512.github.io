@@ -40,6 +40,7 @@ Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-U
 - **Dean’s List**, University of Illinois at Urbana-Champaign (2024)
 - **Second Prize Scholarship for Academic Excellence**, ZJU-UIUC Institute (2024)
 - **Meritorious Winner**, Mathematical Contest in Modeling (MCM), COMAP (2024)
+- **Second Prize & Best Essay Prize**, Sixth College Student Concrete Dragon Boat Race, Zhejiang University (2025)
 
 ---
 
@@ -54,6 +55,20 @@ Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-U
 
 ---
 
+---
+
+## Project Experience
+
+**Research Progress and Experimental Exploration of Vision–Language–Action (VLA) Models**  
+*Summer Research Project in 2025*
+
+- Conducted an in-depth study of multiple papers in the Vision–Language Model (VLM) field and attempted to reproduce several open-source projects.
+- Led a team of three, gave weekly updates to our advisor, and made short videos explaining the papers, which were uploaded to Bilibili.  
+- Awarded **Outstanding Project** by the college
+
+---
+
+
 ## Teaching & Academic Service
 
 - **Writing Assistant**, Rhetoric 102  
@@ -63,40 +78,27 @@ Zhejiang University – University of Illinois Urbana-Champaign Institute (ZJU-U
 
 ## Leadership & Activities
 
-- **Main Manager**, Publicity Department, ZJU-UIUC Institute (2024–Present)  
+- **Main Manager**, Publicity Department, ZJU-UIUC Institute (2024.7–2025.6)  
   Led creative planning and visual communication for institutional events and student initiatives
 
-- **Leader & Planner**, Social Practice Project  
+- **Designer, Leader, and Planner**, Social Practice Project  
   *“Exploring the Popularization of Science in the Digital Era”* (Winter 2025)  
-  - Designed and led a research-driven science communication project  
-  - Published multiple high-quality science popularization articles  
-  - Awarded **Second Prize (Top 3)** in final evaluation on the international campus
-
-- **Founder & Leader**, Student Culture Festival Booth (2025)  
-  Organized a cultural booth on the Guangdong–Hong Kong–Macao Greater Bay Area, featuring traditional cuisine, music, and language interaction
+  - Published several high-quality articles and videos on science communication  
+  - Interviewed prominent professors, content creators, and organizations in the field of science popularization  
+  - Awarded **Second Prize (Top 3)** in the final evaluation at my campus
 
 ---
 
 ## Sports & Extracurricular Achievements
 
-- Women’s **Javelin Throw**:  
-  - 6th place, Zhejiang University Games  
-  - 2nd place, Campus Sports Meet
+- **Discus Throw (Women)**  
+  - 5th place, Zhejiang University Sports Meet  
 
-- Women’s **Shot Put**:  
-  - 2nd place, Campus Sports Meet
+- **Javelin Throw (Women)**  
+  - 6th place, Zhejiang University Sports Meet    
 
-- Women’s **Badminton Singles**:  
+- **Badminton Singles (Women)**  
   - 6th place, Campus Sports Meet
-
-- **Second Prize & Best Essay Prize**,  
-  Sixth College Student Concrete Dragon Boat Race, Zhejiang University
-
----
-
-## Interests
-
-Painting and visual design, black-and-white aesthetics, badminton, hiking, endurance sports, and interdisciplinary creative projects.
 
 ---
 
