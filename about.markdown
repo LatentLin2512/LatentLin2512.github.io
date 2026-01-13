@@ -40,6 +40,8 @@ In addition to my technical interests, I am also passionate about **science comm
 - **Major**: Computer Engineering
 - **Hometown**: Dongguan, Guangdong, China
 
+📄 [Here is my CV](https://latentlin2512.github.io/docs/WenjuanLin_CV.pdf)
+
 ---
 
 ## Academic Honors & Awards
