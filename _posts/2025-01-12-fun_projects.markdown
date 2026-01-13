@@ -23,7 +23,8 @@ feature: https://github.com/LatentLin2512/LatentLin2512.github.io/blob/master/as
 Here is the report of our **ParallelSlackers Team** project! 📄  
 *(Actually, I combined the two reports into one.)*  
 
-Click here to view: [Project Report PDF](https://github.com/LatentLin2512/LatentLin2512.github.io/blob/a96bd3c7eb8943554a5c760ceef088e5e7e2e846/_posts/ParallelSlackers_Report.pdf)  
+Click here to view: [Project Report PDF]
+(https://latentlin2512.github.io/assets/pdf/ParallelSlackers_Report.pdf)
 
 I gained a lot from this project, including using strategies such as **Tensor Cores**, **Flash Attention** and **reduction techniques** to optimize the GPT-2 model using **CUDA programming**.
 
