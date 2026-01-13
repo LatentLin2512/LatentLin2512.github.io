@@ -6,6 +6,19 @@ excerpt: "I like doing projects!"
 feature: https://github.com/LatentLin2512/LatentLin2512.github.io/blob/master/assets/img/background.jpg
 ---
 
+
+<style>
+  p {
+    line-height: 1.8; 
+  }
+
+  li {
+    line-height: 1.8; 
+  }
+</style>
+
+
+
 ## 🧠 GPT-2 Project in ECE408
 Here is the report of our **ParallelSlackers Team** project! 📄  
 *(Actually, I combined the two reports into one.)*  
