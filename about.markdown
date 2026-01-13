@@ -86,11 +86,12 @@ You can see all the course projects I have done here: [Fun Projects](https://lat
 ## Leadership & Activities
 
 - **Club Member**, Illinois Space Society (2025.9 – Present)  
-  - Learned an extended Kalman filter algorithm and attempted to apply it to estimate a rocket's height, velocity, and acceleration during actual launches.  
-  - Assisted the team in identifying several bugs in the code, such as inconsistencies in the reference frame.  
+  -  Learned and successfully applied an extended Kalman filter (EKF) algorithm to estimate rocket height, velocity, and acceleration during actual launches (Oct 2025)
+  -  Identified and fixed code bugs in the rocket guidance system, including reference frame inconsistencies
+  -  Currently exploring lightweight algorithms to efficiently predict rocket attitude with the team
 
 - **Main Manager**, Publicity Department, ZJU-UIUC Institute (2024.7–2025.6)  
-  Led creative planning and visual communication for institutional events and student initiatives
+  Led planning and visual content for institutional events and student initiatives, including videos, social media posts, and graphics.
 
 - **Designer, Leader, and Planner**, Social Practice Project  
   *“Exploring the Popularization of Science in the Digital Era”* (Winter 2025)  
