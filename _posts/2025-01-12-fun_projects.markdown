@@ -17,14 +17,12 @@ feature: https://github.com/LatentLin2512/LatentLin2512.github.io/blob/master/as
   }
 </style>
 
-
-
 ## 🧠 GPT-2 Project in ECE408
 Here is the report of our **ParallelSlackers Team** project! 📄  
 *(Actually, I combined the two reports into one.)*  
 
-Click here to view: [Project Report PDF]
-(https://latentlin2512.github.io/assets/pdf/ParallelSlackers_Report.pdf)
+👉 [📥 Download the Project Report PDF](https://latentlin2512.github.io/docs/ParallelSlackers_Report.pdf)
+
 
 I gained a lot from this project, including using strategies such as **Tensor Cores**, **Flash Attention** and **reduction techniques** to optimize the GPT-2 model using **CUDA programming**.
 
