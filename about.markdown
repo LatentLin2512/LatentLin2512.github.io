@@ -65,14 +65,7 @@ In addition to my technical interests, I am also passionate about **science comm
 
 ## Project Experience
 
-**GPT-2 Project**  
-*Course Project, ECE408, University of Illinois Urbana-Champaign*  
-- Responsible for implementing Tensor Cores, FlashAttention, reduction techniques, and other optimization strategies to accelerate the model using CUDA programming.
-
-**Custom Linux Filesystem**  
-*Course Project, ECE391, University of Illinois Urbana-Champaign*  
-- Responsible for the ELF loader, system calls, process management, and the shell interface; additionally, extended the shell by implementing tab completion using a trie and enabling scrolling through command history with the up and down keys beyond the course requirements.
-
+You can see all the course projects I have done here: [Fun Projects](https://latentlin2512.github.io/fun_projects/) 🚀
 
 **The Little Boat on Yuehaitang**  
 *Sixth College Student Concrete Dragon Boat Race, Zhejiang University (2025)*
