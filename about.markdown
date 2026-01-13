@@ -30,8 +30,9 @@ I am currently exploring my academic interests. At this stage, I am particularly
 In addition to my technical interests, I am also passionate about **science communication and content creation**, especially in making complex scientific ideas accessible to a broader audience. I was also an **Olympiad in Informatics (OI) participant** for many years during high school — though I always lost in the competitions.😅
 
 <div style="text-align:center;">
-  <img src="https://latentlin2512.github.io/assets/img/personalpicture.jpg" alt="Wenjuan Lin" style="width:150px; border-radius:50%;">
+  <img src="https://latentlin2512.github.io/assets/img/personalpicture.jpg" alt="Wenjuan Lin" style="width:300px;">
 </div>
+
 
 - **Name**: 林文隽 (Wenjuan Lin) 
 - **Date of Birth**: January 2, 2005  
