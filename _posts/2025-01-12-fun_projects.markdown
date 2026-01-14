@@ -23,8 +23,7 @@ Here is the report of our **ParallelSlackers Team** project! 📄
 
 👉 [Read Our Project Report](https://latentlin2512.github.io/docs/ParallelSlackers_Report.pdf)
 
-
-I gained a lot from this project, including using strategies such as **Tensor Cores**, **Flash Attention** and **reduction techniques** to optimize the GPT-2 model using **CUDA programming**.
+I learned a lot from this project. In particular, I worked on CUDA-based optimization of the GPT-2 model, applying techniques such as Tensor Cores, FlashAttention, and reduction strategies. I also used NVIDIA Nsight Systems and Nsight Compute to profile the execution and analyze performance bottlenecks.
 
 ---
 
