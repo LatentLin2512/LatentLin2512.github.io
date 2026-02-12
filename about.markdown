@@ -87,11 +87,6 @@ You can see all the course projects I have done here: [Fun Projects](https://lat
 
 ## Leadership & Activities
 
-- **Club Member**, Illinois Space Society (2025.9 – Present)  
-  -  Learned and successfully applied an extended Kalman filter (EKF) algorithm to estimate rocket height, velocity, and acceleration during actual launches (Oct 2025)
-  -  Identified and fixed code bugs in the rocket guidance system, including reference frame inconsistencies
-  -  Currently exploring lightweight algorithms to efficiently predict rocket attitude with the team
-
 - **Main Manager**, Publicity Department, ZJU-UIUC Institute (2024.7–2025.6)  
   Led planning and visual content for institutional events and student initiatives, including videos, social media posts, and graphics.
 
