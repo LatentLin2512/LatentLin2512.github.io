@@ -1,0 +1,9 @@
+        XTE=camera_m[0]-closest_m[0]
+        # hint: find derivative of the polynomial at the closest point
+        #       then use arctan on the scaled slope
+        A, B, C = poly_px
+        y_closest=closest_px[1]
+        dx_dy_px=2*A*y_closest+B #derivative
+        dx_dy_m=dx_dy_px*(Sx/Sy)
+        lane_heading=np.arctan(dx_dy_m)
+        HE=lane_heading
