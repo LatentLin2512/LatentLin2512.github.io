@@ -503,37 +503,84 @@ layout: compress
         </div>
     </section>
 
-    <!-- Awards -->
-    <section class="section" id="awards">
-        <h2 class="section-title">&#127942; Honors &amp; Awards</h2>
-        <ul class="awards-list">
-            <li>
-                <span class="award-year">2024</span>
-                <span class="award-name"><strong>National Scholarship</strong></span>
-                <span class="award-org">Ministry of Education, P.R.C.</span>
-            </li>
-            <li>
-                <span class="award-year">2024, 2025</span>
-                <span class="award-name"><strong>Dean's List</strong></span>
-                <span class="award-org">University of Illinois at Urbana-Champaign</span>
-            </li>
-            <li>
-                <span class="award-year">2024, 2025</span>
-                <span class="award-name"><strong>Second Prize Scholarship for Academic Excellence</strong></span>
-                <span class="award-org">ZJU-UIUC Institute</span>
-            </li>
-            <li>
-                <span class="award-year">2024</span>
-                <span class="award-name"><strong>Meritorious Winner</strong>, Mathematical Contest in Modeling (MCM)</span>
-                <span class="award-org">COMAP</span>
-            </li>
-            <li>
-                <span class="award-year">2025</span>
-                <span class="award-name"><strong>Second Prize &amp; Best Essay Prize</strong>, Concrete Dragon Boat Race</span>
-                <span class="award-org">Zhejiang University</span>
-            </li>
-        </ul>
-    </section>
+<!-- Awards -->
+<section class="section" id="awards">
+    <h2 class="section-title">&#127942; Honors &amp; Awards</h2>
+    <ul class="awards-list">
+        <li>
+            <span class="award-year">2024</span>
+            <span class="award-name"><strong>National Scholarship</strong></span>
+            <span class="award-org">Ministry of Education, P.R.C.</span>
+        </li>
+        <li>
+            <span class="award-year">2024, 2025</span>
+            <span class="award-name"><strong>Dean's List</strong></span>
+            <span class="award-org">University of Illinois at Urbana-Champaign</span>
+        </li>
+        <li>
+            <span class="award-year">2024, 2025</span>
+            <span class="award-name"><strong>Second Prize Scholarship for Academic Excellence</strong></span>
+            <span class="award-org">ZJU-UIUC Institute</span>
+        </li>
+        <li>
+            <span class="award-year">2024</span>
+            <span class="award-name"><strong>Meritorious Winner</strong>, Mathematical Contest in Modeling (MCM)</span>
+            <span class="award-org">COMAP</span>
+        </li>
+        <li>
+            <span class="award-year">2025</span>
+            <span class="award-name"><strong>Second Prize &amp; Best Essay Prize</strong>, Concrete Dragon Boat Race</span>
+            <span class="award-org">Zhejiang University</span>
+        </li>
+    </ul>
+</section>
+
+<style>
+
+.awards-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.awards-list li {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    margin-bottom: 0.5em;
+}
+
+
+.award-year {
+    width: 90px;
+    flex-shrink: 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.award-name {
+    flex: 1;
+    text-align: left;
+}
+
+.award-org {
+    flex: 1;
+    text-align: left;
+    color: #555; 
+    margin-left: 0.5em;
+}
+
+@media (max-width: 600px) {
+    .awards-list li {
+        flex-direction: column;
+    }
+    .award-year, .award-name, .award-org {
+        width: auto;
+        margin-left: 0;
+    }
+}
+</style>
 
     <!-- Activities -->
     <section class="section" id="activities">
