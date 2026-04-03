@@ -85,8 +85,12 @@ You can see all the course projects I have done here: [Fun Projects](https://lat
 
 ---
 
-## Leadership & Activities
-
+## Activities
+- **Club member**, Guidance, Navigation & Control Subteam, Illinois Space Society  (2025.9-2026.3)  
+  - Applied an Extended Kalman Filter (EKF) to support state estimation for a student rocket launch system
+  - Contributed to algorithm development and debugging, including identifying implementation issues such as reference frame misalignment
+  - Participated in the LUNA 1.0 launch as a team member and in LUNA 2.0 as part of the Launch Operations team
+    
 - **Main Manager**, Publicity Department, ZJU-UIUC Institute (2024.7–2025.6)  
   Led planning and visual content for institutional events and student initiatives, including videos, social media posts, and graphics.
 
@@ -95,6 +99,7 @@ You can see all the course projects I have done here: [Fun Projects](https://lat
   - Published several high-quality articles and videos on science communication  
   - Interviewed prominent professors, content creators, and organizations in the field of science popularization  
   - Awarded **Second Prize (Top 3)** in the final evaluation at my campus
+
 
 ---
 
