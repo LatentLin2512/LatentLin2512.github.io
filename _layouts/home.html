@@ -602,35 +602,6 @@ layout: compress
     }
 }
 </style>
-
-
-.image-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;                   
-    margin: 1rem 0;               
-}
-
-.image-wrapper {
-    flex: 1;        
-    text-align: center; 
-}
-
-/* 3. 图片本身：基础响应式设置 */
-.responsive-img {
-    max-width: 100%; 
-    height: auto;  
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
-}
-
-
-@media (max-width: 600px) {
-    .image-row {
-        flex-direction: column; 
-        gap: 10px;           
-    }
-}
     <!-- Activities -->
     <section class="section" id="activities">
         <h2 class="section-title">&#127919; Activities &amp; Service</h2>
@@ -644,15 +615,25 @@ layout: compress
                 <li>Participated in LUNA 1.0 launch (team member) and LUNA 2.0 (Launch Operations).</li>
             </ul>
             <div class="image-row">
-                <div class="image-wrapper">
-                    <img src="https://github.com/LatentLin2512/LatentLin2512.github.io/raw/master/pic/rocket.jpg" 
-                         alt="Rocket Launch" class="responsive-img">
-                </div>
-                <div class="image-wrapper">
-                    <img src="https://github.com/LatentLin2512/LatentLin2512.github.io/raw/master/pic/groundstation.jpg" 
-                         alt="Ground Station" class="responsive-img">
-                </div>
+                <img src="https://raw.githubusercontent.com/LatentLin2512/LatentLin2512.github.io/master/pic/rocket.jpg" alt="Rocket" class="side-image">
+                <img src="https://raw.githubusercontent.com/LatentLin2512/LatentLin2512.github.io/master/pic/groundstation.jpg" alt="Ground Station" class="side-image">
             </div>
+            
+            <style>
+            .image-row {
+                display: flex;           
+                gap: 20px;           
+                justify-content: center; 
+                flex-wrap: wrap;       
+            }
+            
+            .side-image {
+                max-width: 45%;         
+                height: auto;           
+                border-radius: 8px;   
+                box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
+            }
+            </style>
         </div>
 
         <div class="activity-item">
