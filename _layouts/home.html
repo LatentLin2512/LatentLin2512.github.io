@@ -2,50 +2,607 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js"><!--<![endif]-->
-
+<html lang="en">
 <head>
     {% include head.html %}
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        /* ===== RESET & BASE ===== */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Fira Sans', 'Segoe UI', sans-serif;
+            background: #fafafa !important;
+            background-image: none !important;
+            color: #2c2c2c;
+            line-height: 1.7;
+        }
 
+        /* ===== COLOR PALETTE ===== */
+        :root {
+            --red:        #8B2635;
+            --red-dark:   #5C1520;
+            --red-light:  #e2cdd0;
+            --red-faint:  #faf5f6;
+            --text:       #2c2c2c;
+            --muted:      #666;
+            --border:     #e0e0e0;
+            --white:      #ffffff;
+            --shadow:     0 2px 16px rgba(0,0,0,0.08);
+        }
+
+        /* ===== TOP NAV ===== */
+        .topnav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--white);
+            border-bottom: 3px solid var(--red);
+            box-shadow: 0 1px 8px rgba(0,0,0,0.10);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 2rem;
+            height: 54px;
+        }
+        .topnav .brand {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--red);
+            text-decoration: none;
+            letter-spacing: 0.03em;
+        }
+        .topnav ul {
+            list-style: none;
+            display: flex;
+            gap: 0.2rem;
+        }
+        .topnav ul li a {
+            text-decoration: none;
+            color: var(--text);
+            font-size: 0.88rem;
+            font-weight: 500;
+            padding: 0.35rem 0.75rem;
+            border-radius: 4px;
+            transition: background 0.2s, color 0.2s;
+        }
+        .topnav ul li a:hover {
+            background: var(--red);
+            color: var(--white);
+        }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            background:
+                linear-gradient(160deg, #6b1e2a 0%, #8B2635 40%, #a83245 75%, #be4a5c 100%);
+            color: var(--white);
+            padding: 4rem 2rem 3.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        /* subtle noise-like texture overlay */
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(ellipse at 20% 60%, rgba(220, 120, 130, 0.15) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 20%, rgba(160, 50, 70, 0.20) 0%, transparent 55%);
+            pointer-events: none;
+        }
+        .hero-inner {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            position: relative;
+            z-index: 1;
+            min-height: 340px;
+        }
+        .hero-photo-col {
+            width: 45%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2.5rem 2rem 2.5rem 2rem;
+        }
+        .hero-photo {
+            width: 100%;
+            max-width: 300px;
+            aspect-ratio: 1 / 1;
+            border-radius: 6px;
+            object-fit: cover;
+            object-position: top center;
+            border: 3px solid rgba(255,255,255,0.35);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+        }
+        .hero-text-col {
+            width: 55%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.75rem;
+            padding: 2.5rem 2.5rem 2.5rem 1.5rem;
+            text-align: left;
+        }
+        .hero h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            line-height: 1.2;
+        }
+        .hero .chinese-name {
+            font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            font-size: 1.35rem;
+            font-weight: 300;
+            opacity: 0.85;
+            letter-spacing: 0.12em;
+            margin-top: -0.2rem;
+        }
+        .hero .affiliation {
+            font-size: 0.92rem;
+            opacity: 0.88;
+            line-height: 1.6;
+        }
+        .hero-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.25rem;
+        }
+        .hero-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            color: var(--white);
+            text-decoration: none;
+            font-size: 0.85rem;
+            border: 1.5px solid rgba(255,255,255,0.5);
+            border-radius: 20px;
+            padding: 0.28rem 0.85rem;
+            transition: background 0.2s, border-color 0.2s;
+        }
+        .hero-links a:hover {
+            background: rgba(255,255,255,0.2);
+            border-color: var(--white);
+        }
+        .hero-links .cv-btn {
+            background: rgba(255,255,255,0.18);
+            border-color: var(--white);
+            font-weight: 600;
+        }
+        @media (max-width: 640px) {
+            .hero-inner { flex-direction: column; align-items: center; }
+            .hero-photo-col, .hero-text-col { width: 100%; padding: 1.5rem; }
+            .hero-text-col { text-align: center; }
+            .hero-links { justify-content: center; }
+            .hero-photo { max-width: 200px; }
+        }
+
+        /* ===== MAIN LAYOUT ===== */
+        .page-body {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem;
+        }
+
+        /* ===== SECTIONS ===== */
+        .section {
+            margin-bottom: 2.8rem;
+        }
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--red);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.45rem;
+            border-bottom: 2px solid var(--red-light);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* ===== BIO ===== */
+        .bio-text p {
+            margin-bottom: 0.8rem;
+            color: var(--text);
+        }
+
+        /* ===== CARDS (Research / Projects) ===== */
+        .card {
+            background: var(--white);
+            border-radius: 8px;
+            border-left: 4px solid var(--red);
+            box-shadow: var(--shadow);
+            padding: 1.2rem 1.4rem;
+            margin-bottom: 1rem;
+        }
+        .card h3 {
+            font-size: 1.02rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.2rem;
+        }
+        .card .card-meta {
+            font-size: 0.83rem;
+            color: var(--muted);
+            margin-bottom: 0.55rem;
+            font-style: italic;
+        }
+        .card ul {
+            padding-left: 1.3rem;
+            font-size: 0.92rem;
+            color: var(--text);
+        }
+        .card ul li {
+            margin-bottom: 0.3rem;
+        }
+        .card p {
+            font-size: 0.92rem;
+            color: var(--text);
+        }
+        .badge {
+            display: inline-block;
+            background: var(--red);
+            color: var(--white);
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.15rem 0.55rem;
+            border-radius: 12px;
+            margin-left: 0.4rem;
+            vertical-align: middle;
+        }
+        .badge-gold {
+            background: #c8973a;
+        }
+
+        /* ===== AWARDS TABLE ===== */
+        .awards-list {
+            list-style: none;
+            padding: 0;
+        }
+        .awards-list li {
+            display: flex;
+            align-items: baseline;
+            gap: 0.8rem;
+            padding: 0.55rem 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.93rem;
+        }
+        .awards-list li:last-child { border-bottom: none; }
+        .award-year {
+            color: var(--red);
+            font-weight: 700;
+            font-size: 0.82rem;
+            min-width: 38px;
+            text-align: right;
+        }
+        .award-name { flex: 1; }
+        .award-org { color: var(--muted); font-size: 0.82rem; text-align: right; }
+
+        /* ===== ACTIVITIES ===== */
+        .activity-item {
+            margin-bottom: 1.1rem;
+            padding-left: 1rem;
+            border-left: 3px solid var(--red-light);
+        }
+        .activity-item h4 {
+            font-size: 0.97rem;
+            font-weight: 700;
+            color: var(--text);
+        }
+        .activity-item .act-meta {
+            font-size: 0.82rem;
+            color: var(--muted);
+            margin-bottom: 0.3rem;
+        }
+        .activity-item ul {
+            padding-left: 1.2rem;
+            font-size: 0.88rem;
+            color: var(--text);
+        }
+        .activity-item ul li { margin-bottom: 0.2rem; }
+
+        /* ===== INFO GRID ===== */
+        .info-grid {
+            display: grid;
+            grid-template-columns: max-content 1fr;
+            gap: 0.4rem 1.2rem;
+            font-size: 0.91rem;
+        }
+        .info-grid dt {
+            font-weight: 600;
+            color: var(--red);
+            white-space: nowrap;
+        }
+        .info-grid dd { color: var(--text); }
+
+        /* ===== SPORTS ===== */
+        .sport-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .chip {
+            background: var(--red-faint);
+            border: 1px solid var(--red-light);
+            color: var(--red-dark);
+            border-radius: 20px;
+            padding: 0.3rem 0.85rem;
+            font-size: 0.87rem;
+        }
+
+        /* ===== FOOTER ===== */
+        .site-footer {
+            text-align: center;
+            padding: 1.5rem 1rem;
+            font-size: 0.8rem;
+            color: var(--muted);
+            border-top: 1px solid var(--border);
+        }
+        .site-footer a { color: var(--red); text-decoration: none; }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 600px) {
+            .topnav ul { display: none; }
+            .hero h1 { font-size: 1.6rem; }
+            .award-org { display: none; }
+            .info-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
 <body>
-    {% include nav.html %}
-    <!-- Header -->
-    <header class="header flex" role="banner">
-        <div class="container animated fadeIn">
-            <div class="row">
-                <a href="{{ site.url }}">
-                    <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
+
+<!-- ===== TOP NAV ===== -->
+<nav class="topnav">
+    <a href="#" class="brand">Wenjuan Lin</a>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#activities">Activities</a></li>
+    </ul>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-photo-col">
+            <img src="https://latentlin2512.github.io/assets/img/personalpicture.jpg"
+                 alt="Wenjuan Lin" class="hero-photo">
+        </div>
+        <div class="hero-text-col">
+            <h1>Wenjuan Lin</h1>
+            <p class="chinese-name">林文隽</p>
+            <p class="affiliation">
+                Undergraduate · Computer Engineering<br>
+                Zhejiang University – University of Illinois Urbana-Champaign Institute
+            </p>
+            <div class="hero-links">
+                <a href="https://latentlin2512.github.io/docs/WenjuanLin_CV.pdf" class="cv-btn" target="_blank">
+                    <i class="fa fa-file-text-o"></i> CV
                 </a>
-                <h3 class="title">
-                    <a class="zoombtn" href="{{ site.url }}">
-                        <p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
-                    </a>
-                </h3>
-                <hr class="hr-line">
-                <h3 class="title">
-                    <a href="{{ site.url }}">
-                        <p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
-                    </a>
-                </h3>
-                {% include social-links.html %}
-                <hr class="hr-line">
-                <h3 class="title">
-                    <a class="btn zoombtn" href="{{ site.url }}/about">
-                        About
-                    </a>
-                    <a class="btn zoombtn" href="{{ site.url }}/posts">
-                        Posts
-                    </a>
-                </h3>
+                {% if site.email %}
+                <a href="mailto:{{ site.email }}">
+                    <i class="fa fa-envelope-o"></i> Email
+                </a>
+                {% endif %}
+                {% if site.github-url %}
+                <a href="https://github.com/{{ site.github-url }}" target="_blank">
+                    <i class="fa fa-github"></i> GitHub
+                </a>
+                {% endif %}
             </div>
         </div>
-    </header>
-    {% include scripts.html %}
-</body>
+    </div>
+</section>
 
+<!-- ===== MAIN BODY ===== -->
+<div class="page-body">
+
+    <!-- About -->
+    <section class="section" id="about">
+        <h2 class="section-title">&#128393; About Me</h2>
+        <div class="bio-text">
+            <p>
+                I am an undergraduate student majoring in <strong>Computer Engineering</strong> at
+                <strong>ZJU-UIUC Institute</strong>. My academic interests are currently orbiting
+                <strong>embodied intelligence</strong>, with a focus on <strong>Vision–Language Models (VLMs)</strong>
+                and <strong>Vision–Language–Action (VLA) models</strong> — basically teaching robots to see, think,
+                and (hopefully) not break things.
+            </p>
+            <p>
+                Outside of research, I am passionate about <strong>science communication</strong> — making ideas
+                that live in dense PDFs accessible to actual human beings. I also competed in
+                <strong>Olympiad in Informatics (OI)</strong> for years during high school, which taught me
+                a lot about algorithms and losing gracefully. &#128517;
+            </p>
+        </div>
+
+        <br>
+        <dl class="info-grid">
+            <dt>Name</dt>        <dd>林文隽 (Wenjuan Lin)</dd>
+            <dt>Born</dt>        <dd>January 2, 2005</dd>
+            <dt>School</dt>      <dd>ZJU-UIUC Institute, Zhejiang University</dd>
+            <dt>Major</dt>       <dd>Computer Engineering</dd>
+            <dt>Hometown</dt>    <dd>Dongguan, Guangdong, China</dd>
+        </dl>
+    </section>
+
+    <!-- Research Interests -->
+    <section class="section" id="interests">
+        <h2 class="section-title">&#128161; Research Interests</h2>
+        <p style="margin-bottom:1rem; color:var(--text);">
+            Curious about <strong>embodied intelligence</strong> — particularly how machines can perceive, reason, and act in the physical world.
+            Passionate about making science accessible and fun to read.
+        </p>
+        <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+            <span class="chip">Vision–Language Models (VLMs)</span>
+            <span class="chip">Vision–Language–Action (VLA) Models</span>
+            <span class="chip">Embodied Intelligence</span>
+            <span class="chip">Science Communication</span>
+        </div>
+    </section>
+
+    <!-- Research -->
+    <section class="section" id="research">
+        <h2 class="section-title">&#128300; Research Experience</h2>
+
+        <div class="card">
+            <h3>Research and Reproduction of VLA Models <span class="badge badge-gold">Outstanding Project</span></h3>
+            <p class="card-meta">Team Leader · Summer Research Project, ZJU-UIUC, 2025</p>
+            <ul>
+                <li>Studied multiple recent VLA papers and partially reproduced open-source projects.</li>
+                <li>Led a team of three, delivering weekly study reports to the advisor (recorded and shared on Bilibili).</li>
+                <li>Awarded <strong>Outstanding Project</strong> by ZJU-UIUC Institute.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+        <h2 class="section-title">&#128187; Projects</h2>
+
+        <div class="card">
+            <h3>GPT-2 CUDA Optimization &nbsp;<span class="badge">ECE408</span></h3>
+            <p class="card-meta">ParallelSlackers Team · UIUC, 2024 &nbsp;·&nbsp; 🏆 3rd place in class competition</p>
+            <p>Applied <strong>CUDA-based optimization</strong> techniques to the GPT-2 model, including Tensor Cores,
+            FlashAttention, and reduction strategies. Profiled with NVIDIA Nsight Systems &amp; Nsight Compute
+            to hunt down bottlenecks. The team name was ironic — we worked very hard.</p>
+            <p style="margin-top:0.6rem">
+                <a href="https://latentlin2512.github.io/docs/ParallelSlackers_Report.pdf" target="_blank"
+                   style="color:var(--red);font-weight:600;">&#128196; Read the Report</a>
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Custom RISC-V Operating System &nbsp;<span class="badge">ECE391</span></h3>
+            <p class="card-meta">ThreadRipper Team · UIUC, 2024 &nbsp;·&nbsp; (Best team, obviously)</p>
+            <ul>
+                <li>Built virtual memory management, a filesystem with caching, and VirtIO devices (<code>viogpu</code>) for running games in-OS.</li>
+                <li>Personally responsible for: ELF loader, system calls, process management, and shell interface.</li>
+                <li>Extended the shell with <strong>tab completion via trie</strong> and <strong>command history scrolling</strong> — going beyond requirements because why not.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>The Little Boat on Yuehaitang &nbsp;<span class="badge">Dragon Boat</span></h3>
+            <p class="card-meta">Sixth College Student Concrete Dragon Boat Race, Zhejiang University · 2025</p>
+            <ul>
+                <li>Designed and implemented the electrical control system and wrote the technical reports.</li>
+                <li>Collaborated with four students to build and complete the boat project.</li>
+                <li>Awarded <strong>Second Prize</strong> and <strong>Best Essay Prize</strong>. &nbsp;&#127944;</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Awards -->
+    <section class="section" id="awards">
+        <h2 class="section-title">&#127942; Honors &amp; Awards</h2>
+        <ul class="awards-list">
+            <li>
+                <span class="award-year">2024</span>
+                <span class="award-name"><strong>National Scholarship</strong></span>
+                <span class="award-org">Ministry of Education, P.R.C.</span>
+            </li>
+            <li>
+                <span class="award-year">2024</span>
+                <span class="award-name"><strong>Dean's List</strong></span>
+                <span class="award-org">University of Illinois at Urbana-Champaign</span>
+            </li>
+            <li>
+                <span class="award-year">2024</span>
+                <span class="award-name"><strong>Second Prize Scholarship for Academic Excellence</strong></span>
+                <span class="award-org">ZJU-UIUC Institute</span>
+            </li>
+            <li>
+                <span class="award-year">2024</span>
+                <span class="award-name"><strong>Meritorious Winner</strong>, Mathematical Contest in Modeling (MCM)</span>
+                <span class="award-org">COMAP</span>
+            </li>
+            <li>
+                <span class="award-year">2025</span>
+                <span class="award-name"><strong>Second Prize &amp; Best Essay Prize</strong>, Concrete Dragon Boat Race</span>
+                <span class="award-org">Zhejiang University</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Activities -->
+    <section class="section" id="activities">
+        <h2 class="section-title">&#127919; Activities &amp; Service</h2>
+
+        <div class="activity-item">
+            <h4>Guidance, Navigation &amp; Control Subteam · Illinois Space Society</h4>
+            <p class="act-meta">Club Member &nbsp;·&nbsp; 2025.9 – 2026.3</p>
+            <ul>
+                <li>Applied an Extended Kalman Filter (EKF) for state estimation in a student rocket launch system.</li>
+                <li>Identified implementation issues such as reference frame misalignment.</li>
+                <li>Participated in LUNA 1.0 launch (team member) and LUNA 2.0 (Launch Operations).</li>
+            </ul>
+        </div>
+
+        <div class="activity-item">
+            <h4>Publicity Department · ZJU-UIUC Institute</h4>
+            <p class="act-meta">Main Manager &nbsp;·&nbsp; 2024.7 – 2025.6</p>
+            <ul>
+                <li>Led planning and visual content for institutional events: videos, social media posts, and graphics.</li>
+            </ul>
+        </div>
+
+        <div class="activity-item">
+            <h4>Social Practice Project: <em>"Exploring the Popularization of Science in the Digital Era"</em></h4>
+            <p class="act-meta">Designer, Leader &amp; Planner &nbsp;·&nbsp; Winter 2025 &nbsp;·&nbsp; <strong>Second Prize (Top 3)</strong></p>
+            <ul>
+                <li>Published high-quality articles and videos on science communication.</li>
+                <li>Interviewed prominent professors, content creators, and organizations.</li>
+            </ul>
+        </div>
+
+        <div class="activity-item">
+            <h4>Writing Assistant · Rhetoric 102</h4>
+            <p class="act-meta">Teaching &amp; Academic Service</p>
+            <ul>
+                <li>Assisted students with academic writing, argument structure, and revision strategies.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sports (fun section) -->
+    <section class="section" id="sports">
+        <h2 class="section-title">&#127947; Athlete Corner</h2>
+        <p style="margin-bottom:0.8rem; color:var(--muted); font-size:0.9rem;">
+            Yes, a CS student who also throws things. Competitively.
+        </p>
+        <div class="sport-chips">
+            <span class="chip">&#128504; Discus Throw — 5th, ZJU Sports Meet</span>
+            <span class="chip">&#128504; Javelin Throw — 6th, ZJU Sports Meet</span>
+            <span class="chip">&#128504; Badminton Singles — 6th, Campus Sports Meet</span>
+        </div>
+    </section>
+
+
+</div><!-- /.page-body -->
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+    <p>
+        &copy; {{ 'now' | date: "%Y" }} Wenjuan Lin &nbsp;·&nbsp;
+        Built with <a href="https://jekyllrb.com" target="_blank">Jekyll</a> &nbsp;·&nbsp;
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </p>
+    <p style="margin-top:0.3rem; font-style:italic; font-size:0.75rem; color:#aaa;">
+        "Somewhere between a VLA paper and a dragon boat, I am figuring it all out."
+    </p>
+</footer>
+
+{% include scripts.html %}
+</body>
 </html>
