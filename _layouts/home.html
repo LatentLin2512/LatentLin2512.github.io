@@ -575,12 +575,14 @@ layout: compress
         <h2 class="section-title">&#128187; Projects</h2>
 
         <div class="card">
-            <h3>Wayno Crazyflie Drone Racing &nbsp;<span class="badge">ECE484</span></h3>
-            <p class="card-meta">Wayno Team &middot; UIUC, 2026 &nbsp;&middot;&nbsp; Best team with the shortest drone racing time</p>
-            <p>Developed an autonomous racing pipeline for the <strong>Crazyflie 2.1 quadrotor</strong>.
-            We compared a robust Sparse Planning + PID controller for real hardware with a PPO-based reinforcement
-            learning policy for high-speed simulation. Our hardware PID run completed a 3-lap circuit in
-            <strong>18.3 seconds</strong>, while the RL policy reached <strong>11.0 seconds</strong> in simulation.</p>
+            <h3>Crazyflie Drone Racing &nbsp;<span class="badge">ECE484</span></h3>
+            <p class="card-meta">Wayno Team &middot; UIUC, 2026 &nbsp;&middot;&nbsp; 🏆 Best team with the shortest drone racing time</p>
+            <p>Built an autonomous racing pipeline in the <strong>Crazyflie 2.1</strong> environment. We explored two methods:
+            a classical controller based on robust <strong>Sparse Planning + PID control</strong>, and a
+            <strong>PPO-based reinforcement learning</strong> policy. Our classical controller completed a 3-lap circuit
+            on hardware in <strong>18.3 seconds</strong>, the shortest time on the drone-project leaderboard, while the RL
+            policy reached <strong>11.0 seconds</strong> in simulation. Direct hardware deployment of the RL policy still
+            exposed sim-to-real challenges, especially because aggressive tilt angles can destabilize the lab Crazyflie.</p>
 
             <div class="tags" style="margin: 0.5rem 0; font-size: 0.85rem;">
         <span style="background:#f0f0f0; padding:2px 8px; border-radius:4px; margin-right:5px;">ROS2</span>
