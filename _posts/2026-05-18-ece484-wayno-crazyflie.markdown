@@ -5,6 +5,7 @@ date: 2026-05-18 11:00:00 -0500
 excerpt: "A Crazyflie quadrotor racing project with classical PID control and reinforcement learning policies."
 project: true
 feature: https://latentlin2512.github.io/pic/crazyflie.png
+permalink: /ece484-wayno-crazyflie/
 ---
 
 <style>
@@ -24,6 +25,8 @@ feature: https://latentlin2512.github.io/pic/crazyflie.png
 ## Wayno Crazyflie Quadrotor
 
 For **ECE484: Principles of Safe Autonomy**, our team built an autonomous drone-racing pipeline for the **Crazyflie 2.1** quadrotor. The goal was to fly through a gate-based racing course quickly and reliably, both in simulation and on physical hardware.
+
+Our team received the **Best Team** recognition with the **shortest drone racing time**.
 
 We explored two complementary approaches: a classical **Sparse Planning + PID Control** pipeline for robust real-world flight, and a **model-free reinforcement learning** policy for high-speed simulated racing.
 

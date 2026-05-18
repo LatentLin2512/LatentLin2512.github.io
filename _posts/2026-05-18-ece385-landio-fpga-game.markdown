@@ -5,6 +5,7 @@ date: 2026-05-18 10:00:00 -0500
 excerpt: "A real-time two-player territory-capture game running across two synchronized FPGA boards."
 project: true
 feature: https://latentlin2512.github.io/assets/img/background.jpg
+permalink: /ece385-landio-fpga-game/
 ---
 
 <style>
@@ -20,6 +21,8 @@ feature: https://latentlin2512.github.io/assets/img/background.jpg
 ## Land.io: Two-Player FPGA Territory Capture
 
 For our **ECE385 final project**, we built **Land.io**, a two-player territory-capture game that runs on two separate FPGA boards. The project combines custom hardware modules and MicroBlaze software into a real-time interactive system with synchronized gameplay on both screens.
+
+Our project was selected as a **Top 3 final project**, and our team won an **FPGA board** as the award.
 
 Players compete on a **100 x 100 tile map**, moving characters to claim territory while avoiding collisions and responding to the other player's actions. Each FPGA board maintains the same game state, while the local display follows its own player.
 
